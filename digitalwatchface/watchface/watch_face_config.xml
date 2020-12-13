@@ -2,61 +2,108 @@
 <providers>
     <TemplateWatch dpi="390">
         <Widget widget_type="IMAGE">
-            <Image x="0" y="0" label="Background" type="static" res_name="A100_044.png"/>
+            <Image x="0" y="0" type="static" res_name="A100_062.png" label="Background"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="101" drawable_y="120" type="static" data_type="DATA_HOUR_LOW" label="Hour_L"/>
+            <ImagesList res_6="A100_056.png" res_7="A100_057.png" res_8="A100_058.png" res_9="A100_059.png" res_10="" res_11="" res_0="A100_050.png" res_12="" res_1="A100_051.png" res_13="" res_14="" res_2="A100_052.png" res_3="A100_053.png" res_4="A100_054.png" res_5="A100_055.png"/>
         </Widget>
         <Widget widget_type="IMAGE">
-            <Image x="47" y="78" label="Time_Frame" type="static" res_name="A100_043.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Hour_L" type="static" data_type="DATA_HOUR_LOW" drawable_x="101" drawable_y="87"/>
-            <ImagesList res_1="A100_034.png" res_2="A100_035.png" res_10="" res_3="A100_036.png" res_11="" res_4="A100_037.png" res_12="" res_5="A100_038.png" res_13="" res_6="A100_039.png" res_14="" res_7="A100_040.png" res_8="A100_041.png" res_9="A100_042.png" res_0="A100_033.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Hour_H" type="static" data_type="DATA_HOUR_HIGH" drawable_x="49" drawable_y="87"/>
-            <ImagesList res_1="A100_034.png" res_2="A100_035.png" res_10="" res_3="" res_11="" res_4="" res_12="" res_5="" res_13="" res_6="" res_14="" res_7="" res_8="" res_9="" res_0="A100_033.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Minute_H" type="static" data_type="DATA_MINITE_HIGH" drawable_x="169" drawable_y="87"/>
-            <ImagesList res_1="A100_034.png" res_2="A100_035.png" res_10="" res_3="A100_036.png" res_11="" res_4="A100_037.png" res_12="" res_5="A100_038.png" res_13="" res_6="" res_14="" res_7="" res_8="" res_9="" res_0="A100_033.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Minute_L" type="static" data_type="DATA_MINITE_LOW" drawable_x="224" drawable_y="87"/>
-            <ImagesList res_1="A100_034.png" res_2="A100_035.png" res_10="" res_3="A100_036.png" res_11="" res_4="A100_037.png" res_12="" res_5="A100_038.png" res_13="" res_6="A100_039.png" res_14="" res_7="A100_040.png" res_8="A100_041.png" res_9="A100_042.png" res_0="A100_033.png"/>
+            <Image x="28" y="190" type="static" res_name="A100_061.png" label="Komischer Ramen"/>
         </Widget>
         <Widget widget_type="IMAGE">
-            <Image x="156" y="104" label="Dot" type="static" res_name="A100_032.png"/>
+            <Image x="47" y="113" type="static" res_name="A100_060.png" label="UI_Time_Frame"/>
         </Widget>
         <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Second_H" type="static" data_type="DATA_SECOND_HIGH" drawable_x="276" drawable_y="116"/>
-            <ImagesList res_1="A100_023.png" res_2="A100_024.png" res_10="" res_3="A100_025.png" res_11="" res_4="A100_026.png" res_12="" res_5="A100_027.png" res_13="" res_6="" res_14="" res_7="" res_8="" res_9="" res_0="A100_022.png"/>
+            <SelectImage drawable_x="49" drawable_y="120" type="static" data_type="DATA_HOUR_HIGH" label="Hour_H"/>
+            <ImagesList res_6="" res_7="" res_8="" res_9="" res_10="" res_11="" res_0="A100_050.png" res_12="" res_1="A100_051.png" res_13="" res_14="" res_2="A100_052.png" res_3="" res_4="" res_5=""/>
         </Widget>
         <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Second_L" type="static" data_type="DATA_SECOND_LOW" drawable_x="310" drawable_y="116"/>
-            <ImagesList res_1="A100_023.png" res_2="A100_024.png" res_10="" res_3="A100_025.png" res_11="" res_4="A100_026.png" res_12="" res_5="A100_027.png" res_13="" res_6="A100_028.png" res_14="" res_7="A100_029.png" res_8="A100_030.png" res_9="A100_031.png" res_0="A100_022.png"/>
+            <SelectImage drawable_x="169" drawable_y="120" type="static" data_type="DATA_MINITE_HIGH" label="Minute_H"/>
+            <ImagesList res_6="" res_7="" res_8="" res_9="" res_10="" res_11="" res_0="A100_050.png" res_12="" res_1="A100_051.png" res_13="" res_14="" res_2="A100_052.png" res_3="A100_053.png" res_4="A100_054.png" res_5="A100_055.png"/>
         </Widget>
         <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Date_H" type="static" data_type="DATA_DATE_HIGH" drawable_x="233" drawable_y="31"/>
-            <ImagesList res_1="A100_013.png" res_2="A100_014.png" res_10="" res_3="A100_015.png" res_11="" res_4="" res_12="" res_5="" res_13="" res_6="" res_14="" res_7="" res_8="" res_9="" res_0="A100_012.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Date_L" type="static" data_type="DATA_DATE_LOW" drawable_x="258" drawable_y="31"/>
-            <ImagesList res_1="A100_013.png" res_2="A100_014.png" res_10="" res_3="A100_015.png" res_11="" res_4="A100_016.png" res_12="" res_5="A100_017.png" res_13="" res_6="A100_018.png" res_14="" res_7="A100_019.png" res_8="A100_020.png" res_9="A100_021.png" res_0="A100_012.png"/>
-        </Widget>
-        <Widget widget_type="SELECTIMAGE">
-            <SelectImage label="Day" type="static" data_type="DATA_WEEK" drawable_x="111" drawable_y="31"/>
-            <ImagesList res_1="A100_005.png" res_2="A100_006.png" res_10="" res_3="A100_007.png" res_11="" res_4="A100_008.png" res_12="" res_5="A100_009.png" res_13="" res_6="A100_010.png" res_14="" res_7="A100_011.png" res_8="" res_9="" res_0="A100_005.png"/>
+            <SelectImage drawable_x="224" drawable_y="120" type="static" data_type="DATA_MINITE_LOW" label="Minute_L"/>
+            <ImagesList res_6="A100_056.png" res_7="A100_057.png" res_8="A100_058.png" res_9="A100_059.png" res_10="" res_11="" res_0="A100_050.png" res_12="" res_1="A100_051.png" res_13="" res_14="" res_2="A100_052.png" res_3="A100_053.png" res_4="A100_054.png" res_5="A100_055.png"/>
         </Widget>
         <Widget widget_type="IMAGE">
-            <Image x="137" y="340" label="Battery" type="static" res_name="A100_004.png"/>
+            <Image x="156" y="137" type="static" res_name="A100_049.png" label="Dot"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="276" drawable_y="149" type="static" data_type="DATA_SECOND_HIGH" label="Second_H"/>
+            <ImagesList res_6="" res_7="" res_8="" res_9="" res_10="" res_11="" res_0="A100_039.png" res_12="" res_1="A100_040.png" res_13="" res_14="" res_2="A100_041.png" res_3="A100_042.png" res_4="A100_043.png" res_5="A100_044.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="310" drawable_y="149" type="static" data_type="DATA_SECOND_LOW" label="Second_L"/>
+            <ImagesList res_6="A100_045.png" res_7="A100_046.png" res_8="A100_047.png" res_9="A100_048.png" res_10="" res_11="" res_0="A100_039.png" res_12="" res_1="A100_040.png" res_13="" res_14="" res_2="A100_041.png" res_3="A100_042.png" res_4="A100_043.png" res_5="A100_044.png"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="28" y="121" type="static" res_name="A100_038.png" label="UI_Time"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="233" drawable_y="64" type="static" data_type="DATA_DATE_HIGH" label="Date_H"/>
+            <ImagesList res_6="" res_7="" res_8="" res_9="" res_10="" res_11="" res_0="A100_028.png" res_12="" res_1="A100_029.png" res_13="" res_14="" res_2="A100_030.png" res_3="A100_031.png" res_4="" res_5=""/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="258" drawable_y="64" type="static" data_type="DATA_DATE_LOW" label="Date_L"/>
+            <ImagesList res_6="A100_034.png" res_7="A100_035.png" res_8="A100_036.png" res_9="A100_037.png" res_10="" res_11="" res_0="A100_028.png" res_12="" res_1="A100_029.png" res_13="" res_14="" res_2="A100_030.png" res_3="A100_031.png" res_4="A100_032.png" res_5="A100_033.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="111" drawable_y="64" type="static" data_type="DATA_WEEK" label="Day"/>
+            <ImagesList res_6="A100_026.png" res_7="A100_027.png" res_8="" res_9="" res_10="" res_11="" res_0="A100_021.png" res_12="" res_1="A100_021.png" res_13="" res_14="" res_2="A100_022.png" res_3="A100_023.png" res_4="A100_024.png" res_5="A100_025.png"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="174" y="34" type="static" res_name="A100_020.png" label="UI_Date"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="138" y="327" type="static" res_name="A100_019.png" label="UI_Battery"/>
         </Widget>
         <Widget widget_type="LINE">
-            <Line label="Battery_core_full" drawable_width="101" type="static" res_name="A100_003.png" data_type="DATA_POWER_RATIO" drawable_x="137" drawable_height="30" drawable_y="340"/>
+            <Line drawable_height="26" drawable_x="138" drawable_y="327" type="static" res_name="A100_018.png" drawable_width="87" data_type="DATA_POWER_RATIO" label="Battery_core_full"/>
         </Widget>
         <Widget widget_type="TEXT">
-            <Text color_blue="148" font_type="T_ROBOTOCONDENSED_REGULAR_24" line_spacing="0" color_green="216" color_red="199" label="Battery_Percent" drawable_width="200" alignment_type="CENTER" type="static" alpha="255" data_type="DATA_POWER" drawable_x="160" drawable_height="23" drawable_y="338"/>
+            <Text drawable_height="23" line_spacing="0" drawable_x="216" alpha="255" drawable_y="324" font_type="T_ROBOTOCONDENSED_REGULAR_24" color_red="199" color_blue="148" type="static" drawable_width="50" alignment_type="RIGHT" color_green="216" data_type="DATA_POWER" label="Battery_Percent"/>
         </Widget>
         <Widget widget_type="IMAGE">
-            <Image x="278" y="343" label="Battery_Percent_Ico" type="static" res_name="A100_002.png"/>
+            <Image x="267" y="330" type="static" res_name="A100_017.png" label="UI_Battery_Percent"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="160" y="306" type="static" res_name="A100_016.png" label="UI_Battery"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="215" y="220" type="static" res_name="A100_015.png" label="UI_Steps"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="123" y="220" type="static" res_name="A100_014.png" label="UI_Heart"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="100" y="220" type="static" res_name="A100_013.png" label="UI_Heart_Icon"/>
+        </Widget>
+        <Widget widget_type="IMAGE">
+            <Image x="276" y="220" type="static" res_name="A100_012.png" label="UI_Steps_Icon"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="257" drawable_y="241" type="static" data_type="DATA_STEPS_ONE" label="Step_1"/>
+            <ImagesList res_6="A100_008.png" res_7="A100_009.png" res_8="A100_010.png" res_9="A100_011.png" res_10="" res_11="" res_0="A100_002.png" res_12="" res_1="A100_003.png" res_13="" res_14="" res_2="A100_004.png" res_3="A100_005.png" res_4="A100_006.png" res_5="A100_007.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="246" drawable_y="241" type="static" data_type="DATA_STEPS_TWO" label="Step_10"/>
+            <ImagesList res_6="A100_008.png" res_7="A100_009.png" res_8="A100_010.png" res_9="A100_011.png" res_10="" res_11="" res_0="A100_002.png" res_12="" res_1="A100_003.png" res_13="" res_14="" res_2="A100_004.png" res_3="A100_005.png" res_4="A100_006.png" res_5="A100_007.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="235" drawable_y="241" type="static" data_type="DATA_STEPS_THREE" label="Step_100"/>
+            <ImagesList res_6="A100_008.png" res_7="A100_009.png" res_8="A100_010.png" res_9="A100_011.png" res_10="" res_11="" res_0="A100_002.png" res_12="" res_1="A100_003.png" res_13="" res_14="" res_2="A100_004.png" res_3="A100_005.png" res_4="A100_006.png" res_5="A100_007.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="224" drawable_y="241" type="static" data_type="DATA_STEPS_FOUR" label="Step_1.000"/>
+            <ImagesList res_6="A100_008.png" res_7="A100_009.png" res_8="A100_010.png" res_9="A100_011.png" res_10="" res_11="" res_0="A100_002.png" res_12="" res_1="A100_003.png" res_13="" res_14="" res_2="A100_004.png" res_3="A100_005.png" res_4="A100_006.png" res_5="A100_007.png"/>
+        </Widget>
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage drawable_x="213" drawable_y="241" type="static" data_type="DATA_STEPS_FIVE" label="Step_10.000"/>
+            <ImagesList res_6="A100_008.png" res_7="A100_009.png" res_8="A100_010.png" res_9="A100_011.png" res_10="" res_11="" res_0="A100_002.png" res_12="" res_1="A100_003.png" res_13="" res_14="" res_2="A100_004.png" res_3="A100_005.png" res_4="A100_006.png" res_5="A100_007.png"/>
+        </Widget>
+        <Widget widget_type="TEXT">
+            <Text drawable_height="20" line_spacing="0" drawable_x="132" alpha="255" drawable_y="235" font_type="T_ROBOTOCONDENSED_REGULAR_20" color_red="199" color_blue="148" type="static" drawable_width="50" alignment_type="RIGHT" color_green="216" data_type="DATA_HEARTRATE" label="Changing text"/>
         </Widget>
     </TemplateWatch>
 </providers>

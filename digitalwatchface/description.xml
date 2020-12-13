@@ -8,5 +8,5 @@
     <version>3.1.1</version>
     <font>Default</font>
     <font-cn>默认</font-cn>
-    <briefinfo>{"en_US":"A simple and timeless digital watchface.","de_DE":"Ein simples und zeitloses digitales Ziffernblatt."}</briefinfo>
+    <briefinfo>{"en_US":"A simple and timeless digital watchface.","de_DE":"Ein simples und zeitloses digitales Ziffernblatt.","zh_CN":"简单而永恒的数字表盘。"}</briefinfo>
 </HwTheme>
